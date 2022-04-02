@@ -1,0 +1,81 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  background-size: cover;
+  font-family: roboto;
+}
+.container {
+  display: flex;
+  justify-content: center;
+
+  align-items: flex-end;
+}
+.user-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+.comments-img {
+  height: 300px;
+  width: 380px;
+}
+.heading {
+  font-size: 48px;
+}
+.input-cls {
+  border: 1px solid #94a3b8;
+  background-color: transparent;
+  min-width: 340px;
+  height: 34px;
+  color: #7e858e;
+  font-size: 16px;
+  padding-left: 15px;
+  border-radius: 3px;
+  margin-top: 20px;
+  padding-bottom: 0px;
+  outline: none;
+}
+.textarea-cls {
+  border: 1px solid #94a3b8;
+  background-color: transparent;
+  max-width: 340px;
+  height: 84px;
+  color: #7e858e;
+  font-size: 18px;
+  padding-left: 15px;
+  border-radius: 3px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  outline: none;
+}
+.button {
+  border: 0px;
+  background-color: #0284c7;
+  width: 140px;
+  height: 34px;
+  font-size: 14px;
+  color: white;
+  border-radius: 3px;
+  margin-top: 20px;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.total-cls {
+  background-color: #0284c7;
+  color: white;
+  padding: 10px;
+  border-radius: 3px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.item-list {
+  list-style-type: none;
+  padding-left: 0px;
+}

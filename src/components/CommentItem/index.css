@@ -1,0 +1,101 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.firstLetter {
+  font-size: 18px;
+  color: white;
+}
+.first-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 45px;
+  width: 35px;
+  height: 35px;
+}
+.name-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.name-comment-container {
+  display: flex;
+  margin-top: 10px;
+}
+.like-delete-container {
+  display: flex;
+  justify-content: space-between;
+}
+.time-ago-cls {
+  color: #64748b;
+  font-size: 12px;
+  margin-top: 0px;
+  border: 0px;
+  margin-left: 20px;
+  background-color: transparent;
+}
+.name {
+  color: #334155;
+  font-size: 18px;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+.name-min-cls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0px;
+}
+.content {
+  padding-top: 0px;
+  font-size: 14px;
+  color: #64748b;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+.like-btn {
+  border: 0px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  margin-top: 0px;
+}
+.del-btn {
+  border: 0px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+.like-cls {
+  margin-left: 5px;
+  font-weight: 500;
+}
+.like-color {
+  color: #0b69ff;
+}
